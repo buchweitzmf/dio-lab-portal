@@ -5,24 +5,24 @@
 ### Problema
 > Qual problema financeiro seu agente resolve?
 
-Muitos jovens e iniciantes não possuem educação financeira básica e também não têm o hábito de registrar e acompanhar seus gastos, o que leva a descontrole financeiro, uso inadequado do crédito e dificuldade em economizar.
+Muitos usuários não conseguem interpretar seus próprios dados financeiros, como histórico de transações, perfil de investidor e objetivos financeiros, o que dificulta a tomada de decisões conscientes e alinhadas com sua realidade.
 
 ### Solução
 > Como o agente resolve esse problema de forma proativa?
 
-O agente atua como um assistente financeiro inteligente que, além de explicar conceitos de forma simples e responder dúvidas em linguagem natural, permite que o usuário registre e acompanhe seus gastos. Também realiza simulações básicas (como juros e parcelamentos), ajudando o usuário a entender melhor seu comportamento financeiro e tomar decisões mais conscientes no dia a dia.
+O agente atua como um assistente financeiro inteligente que analisa dados do usuário, como perfil financeiro, histórico de transações e atendimentos anteriores, para fornecer respostas contextualizadas. Ele explica conceitos financeiros de forma simples, apresenta o progresso em relação às metas e sugere produtos financeiros compatíveis com o perfil do usuário.
 
 ### Público-Alvo
 > Quem vai usar esse agente?
 
-Jovens e adultos iniciantes na vida financeira, especialmente estudantes ou pessoas que nunca tiveram o hábito de controlar seus gastos e desejam aprender a organizar melhor seu dinheiro.
+Pessoas que desejam entender melhor sua situação financeira a partir de dados já existentes, especialmente iniciantes que têm dificuldade em interpretar informações financeiras e tomar decisões com base nelas.
 
 ---
 
 ## Persona e Tom de Voz
 
 ### Nome do Agente
-Edu
+Portal
 
 ### Personalidade
 > Como o agente se comporta? (ex: consultivo, direto, educativo)
@@ -70,15 +70,15 @@ flowchart TD
 
 ### Estratégias Adotadas
 
-- [ ] O agente responde apenas dentro do escopo de educação financeira básica
-- [ ] Evita recomendações de investimento específicas
-- [ ] Quando não tem certeza, informa limitação ao usuário
-- [ ] Explica o raciocínio de forma simples
+- [x] O agente responde apenas com base nos dados fornecidos
+- [x] Evita recomendações de investimento fora do perfil do usuário
+- [x] Quando não tem certeza, informa limitação ao usuário
+- [x] Não inventa dados não presentes na base
 
 ### Limitações Declaradas
 > O que o agente NÃO faz?
 
 - Não substitui um consultor financeiro profissional
-- Não faz recomendações personalizadas de investimento
+- Recomendações são básicas e baseadas em dados simulados
 - Não acessa dados reais de contas bancárias
 - Pode simplificar conceitos para facilitar o entendimento
